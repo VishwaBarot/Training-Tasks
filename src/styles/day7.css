@@ -1,0 +1,13 @@
+.icons {
+  display: flex;
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+}
+.hw {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: cornflowerblue;
+}

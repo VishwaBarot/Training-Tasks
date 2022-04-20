@@ -1,0 +1,26 @@
+.count {
+    text-align: center;
+    font-size: 30px;
+    color:purple;
+    font-weight: bold;
+  }
+  .click {
+    margin: 20px;
+    padding: 20px;
+    background-color:lavender !important;
+    color:teal !important;
+    border-radius: 8px !important;
+    font-weight: bold !important;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 50px;
+  }
+  .main .alert {
+    position: fixed;
+    top: 10px;
+  }
+  

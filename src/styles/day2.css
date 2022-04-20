@@ -1,0 +1,15 @@
+.head {
+  color: darkblue;
+  text-align: center;
+  font-size: 35px;
+  padding: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+  color: mediumorchid;
+  text-align: center;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,61 @@
+--> Hooks:
+
+There are several built-in React hooks and you can compose them into custom hooks for a specific use case in application.
+
+--> Basic hooks:-
+
+         - useState :  This is the most important and most used hook in reactjs. We are using this hook in 
+                       order to store the state and use it inside the component.We call useState with one 
+                       argument that represents the default value It will return a stateful value and a 
+                       function to update this value.
+
+
+         - useEffect : The function you pass to useEffect as a parameter will run after the render 
+                       is committed to the screen. Default behavior is to run after each render, 
+                       but also have the possibility to pass a second argument that is an 
+                       array of dependencies 
+
+
+         - useContext : This hook allows you to work with React Context API, 
+                        a mechanism that allows you to share data between components and
+                        need to pass a context object as a parameter for this hook, 
+                        it will return back the values. 
+
+
+--> Additional Hooks:-
+
+          - useReducer : This hook is used in advanced state management. It is an alternative to useState, 
+                         and we can follow the Redux pattern with this special hook.
+                         Instead of updating the state directly, you dispatch an action,
+                         that action will trigger a reducer function, 
+                         and that reducer function computes and determine the next state. 
+
+
+          - useCallback : When we define a function inside a react component, 
+                          a new function object is created for every render of that component .
+
+
+          - useMemo : This hook can help optimize computation cost.if
+                      we have an expensive computation to make and we want to store 
+                      that value between renders and recalculate on other value change events.
+
+ 
+          - useRef : This hook helps to create a mutable object that will keep the same reference between renders. 
+                     and that mutable objects will not trigger a re-render on change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+.head {
+  color: darkcyan;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+}
+
+th {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 25%;
+  justify-content: center;
+}
+
+.h2 {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.info {
+  color: brown;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info div {
+  width: 150px;
+}
